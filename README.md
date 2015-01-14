@@ -37,6 +37,8 @@ Running the web application:
 
 2: 	Create a database user and a database to be used for the application:
 
+	Linux: mysql -h localhost -u root -p 
+
 	mysql>	CREATE DATABASE bilbasendb;
 
 	mysql>  CREATE USER 'user'@'localhost' IDENTIFIED BY 'bilbasen';
